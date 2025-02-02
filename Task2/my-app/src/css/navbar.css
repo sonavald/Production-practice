@@ -1,0 +1,60 @@
+nav {
+    height: 92px;
+    margin: 0 auto;
+    align-content: center;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.logo {
+    display: inline-block;
+    margin: 14px 0 0 192px;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0 192px 0 0;
+    list-style: none;
+    color: #BBBBCB;
+    font-size: 16px;
+    width: auto;
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 39px;
+}
+
+.a-nav {
+    color: #BBBBCB;
+    text-decoration: none;
+    transition: color .15s ease-in-out .1s;
+}
+
+.a-nav:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+nav li a:visited {
+    text-decoration: none;
+    color: #BBBBCB;
+}
+
+button {
+    margin-left: 20px;
+    height: 60px;
+    width: 185px;
+    color: #fff;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    background: none;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all .15s ease-in-out .1s;
+}
+
+li button:hover {
+    border: 2px solid rgba(244, 246, 252, 0.6);
+}

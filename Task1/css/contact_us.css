@@ -1,0 +1,76 @@
+.contact-us {
+    margin: 128px 0px;
+    width: auto;
+}
+
+.contact-us-label {
+    width: 562px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-us-label p {
+    color: rgba(40, 41, 56, 0.8);
+}
+ 
+.contact-us-form {
+    margin: 0 auto;
+    margin-top: 48px;
+    width: 1061px;
+    height: 641px;
+    border-radius: 12px;
+    background-color: rgba(244, 246, 252, 1);
+}
+
+textarea {
+    height: 176px;
+    width: 844px;
+}
+
+form { 
+    display: inline-block;
+    margin-top: 55px;
+}
+
+form label {
+    display: inline-flex;
+    font-size: 18px;
+    font-weight: 500;
+    flex-direction: column;
+    margin: 0 0 24px 77px;
+}
+
+form label:nth-child(2n) {
+    margin-left: 32px;
+}
+
+input {
+    height: 26px;
+    width: 371px;
+}
+
+input, textarea {
+    resize: none;
+    margin: 6px 0 0 0;
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 18px 32px;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="button"] {
+    width: 254px;
+    height: 64px;
+    margin: 8px 0 0 77px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(0, 0, 0, 1);    
+}

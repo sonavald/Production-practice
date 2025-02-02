@@ -1,0 +1,113 @@
+.pricing-label {
+    margin: 0 auto;
+    margin-top: 128px;
+    width: 562px;
+    text-align: center;
+}
+
+.pricing-label p{
+    color: rgba(40, 41, 56, 0.8);
+    font-weight: 500;
+}
+
+.pricing-cards {
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    width: 1282px;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 406px;
+    height: 745px;
+    border-radius: 12px;
+    background-color: rgba(244, 246, 252, 1);
+}
+
+.card > *{
+    margin: 0 0 0 48px;
+    width: 281px;
+}
+
+.pricing-cards .card:nth-child(2) {
+    position: relative;
+    color: #ffffff;
+    background-color: rgba(28, 30, 83, 1);
+}
+
+
+.pricing-cards .card:nth-child(2) ul{
+     margin-top: 50px;
+}
+
+.pricing-cards .card:nth-child(2) .card-price span {
+    color: #FCD980;
+}
+
+.pricing-cards .card:nth-child(2):before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    clip-path: circle(575px at top);
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.card-price {
+    margin-top: 64px;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.card-price span {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(36, 5, 242, 1);
+    vertical-align: middle;
+}
+
+.card h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.card ul {
+    display: block;
+    margin-top: 78px;
+    margin-bottom: 0;
+    list-style: square url(./../../public/img/pointers/green_pointer.png) inside;
+    padding: 0;
+}
+
+.pricing-cards .card:last-child ul {
+    margin-top: 44px;
+}
+
+.pricing-cards .card:first-child ul:nth-child(5) {
+    margin-top: 0px;
+    list-style: square url(./../../public/img/pointers/grey_pointer.png) inside;
+}
+
+.card ul li {
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.card ul li span{
+    position: relative;
+    top: -5px;  
+}
+
+.card button {
+    position: absolute;
+    width: 254px;
+    margin: 0;
+    left: 76px;
+    top: 619px;
+}

@@ -1,0 +1,57 @@
+body {
+    background-color: #FFF;
+    font-family: "Inter", serif;
+    margin: 0 auto;
+    position: relative;
+    color: rgba(83, 88, 98, 1);
+    font-weight: 600;
+}
+
+body > * {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color:rgba(24, 29, 39, 1);
+}
+
+h1 {
+    font-size: 48px;
+    color: rgba(24, 29, 39, 1);
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+button, select, option, a {
+    cursor: pointer;
+}
+
+input, button, select {
+    border: 1px solid rgba(213, 215, 218, 1);
+    border-radius: 8px;
+    height: 44px;
+    font: inherit;
+}
+
+form input[type="button"] {
+    padding: 0;
+    height: 44px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(127, 86, 217, 1);
+}
+
+input {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 980px) {
+    h1 {
+        font-size: 36px;
+    }
+}
